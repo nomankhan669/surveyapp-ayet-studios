@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f5f5f5;
+}
+
+.container {
+  background-color: #ffffff;
+  height: 100vh;
+  overflow-x: scroll;
+  overflow: auto;
+}
+
+.container::-webkit-scrollbar {
+  width: 6px;
+}
+ 
+.container::-webkit-scrollbar-track {
+  background-color: #d5d5d4;
+}
+ 
+.container::-webkit-scrollbar-thumb {
+  background-color: #b2b2b1;
+}
+
+.survey-box .icon-img {
+  max-width: 100px;
+}
+
+.survey-box .title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.survey-box .newSurvey,
+.survey-box .surveyLefts {
+  color: #ffffff;
+  padding: 2px 8px;
+  font-size: 12px;
+}
+
+.survey-box .newSurvey {
+  background-color: #d45198;
+  text-transform: uppercase;
+}
+
+.survey-box .surveyLefts {
+  background-color: #333333;
+}
+
+.survey-box .stats img {
+  float: left;
+  margin-top: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.survey-box .rewardBtn {
+  background-color: #d45198;
+  color: #ffffff;
+}
+
+.survey-box .rewardBtn:hover {
+  @apply bg-pink-500;
+}
+
+.survey-box .rewardBtn img {
+  display: inline;
+  float: none;
+  margin: 0;
+  vertical-align: text-bottom;
+}
